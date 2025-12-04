@@ -1,28 +1,19 @@
-// "use client";
+"use client";
 
-// import Hero from "@/components/Hero";
-// import Cards from "@/components/Cards";
-// import Electronics from "@/components/Electronics";
-// import Jewellary from "@/components/Jewellary";
-// import Loader from "@/components/Loader";
+import Hero from "@/components/Hero";
+import Cards from "@/components/Cards";
+import Electronics from "@/components/Electronics";
+import Jewellary from "@/components/Jewellary";
+import Loader from "@/components/Loader";
 
-// export default function Home() {
-//   return (
-//     <div>
-//       <Hero />
-//       <Cards />
-//       <Electronics />
-//       <Jewellary />
-//       <Loader />
-//     </div>
-//   );
-// }
-import React from 'react'
-
-const page = () => {
+export default function Page() {
   return (
-    <div>page</div>
-  )
+    <div>
+      <Hero />
+      <Cards />
+      <Electronics />
+      <Jewellary />
+      <Loader />
+    </div>
+  );
 }
-
-export default page
